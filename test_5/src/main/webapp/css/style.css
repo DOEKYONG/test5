@@ -1,0 +1,107 @@
+@import "boardlist.css";
+@import "boardview.css";
+@import "boardwrite.css"; 
+@import "login.css";
+@import "signup.css";
+
+@font-face {
+    font-family: 'ChosunKg';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunKg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+	font-family: 'ChosunKg';
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+}
+
+
+/*헤더부분css*/
+.top{
+  position: relative;
+  font-size: 12px;
+  right: auto;
+  left: 60px;
+  bottom: 20px;
+    
+}
+
+.header_wrap {
+    display: flex;
+    margin-top: 30px;
+   
+}
+.header_logo{
+    display: flex;
+    width: 20vw;
+
+}
+.header_logo span{
+    font-size: 30px;
+}
+.header_menu{
+    display: flex;
+    justify-content: space-between;
+    width: 55vw;
+    margin-top: 15px;
+    
+}
+a {
+   text-decoration: none;
+   color: black;
+}
+.header_menu span {
+font-size: 20px;
+}
+
+/* 메인부분 css */
+.main_wrap{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    
+}
+.main_sub{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.main_sub img {
+    margin: 20px;
+}
+
+.main_img img{
+   
+    
+}
+
+/* 푸터부분 css*/
+.footer{
+    
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+}
+.sns {
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    align-items: center;
+    
+}
+.sns i {
+    margin-top: 30px;
+    margin-left: 10px;;
+}
+.footer_text{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

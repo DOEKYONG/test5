@@ -1,0 +1,60 @@
+
+@font-face {
+    font-family: 'ChosunKg';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunKg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+	font-family: 'ChosunKg';
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+}
+
+
+.table th {
+	
+	height: 50px;
+	border-bottom: solid cadetblue 2px;
+	border-top: solid cadetblue 2px;
+	
+	
+}
+.table td {
+	
+	text-align: center;
+	height: 40px;
+}
+.table tr:hover { background-color: #eee; cursor: pointer; }
+
+.table {
+ 	margin-top : 40px;
+    width: 80vw;
+    border-top: 1px solid #eee;
+    border-collapse: collapse;
+     
+  
+  }
+  th, td {
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+  }
+ .list_wrap{
+ 	
+  	display: flex;
+  	align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .list_wrap{
+      height: 800px;;
+      display: flex;
+      margin : 0 auto;
+  }
